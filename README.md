@@ -4,14 +4,14 @@
 This project is a bot that automatically discovers startups online, gathers detailed information, and shares it with the community. It helps tech enthusiasts stay updated on new ventures by posting informative content on Dev.to and X (Twitter).
 
 ## Features
-- 🔹 **AI Startup Discovery** – Fetch data from Product Hunt via api to identify emerging startups.
-- 🔹 **Website Crawling** – Visits startup websites to gather detailed info.
-- 🔹 **Content Generation** – Automatically writes tweets and blogs about startups via LLM.
-- 🔹 **Content Posting** – Automatically pots tweets and blogs on X (Twitter), Dev.to via api.
-- 🔹 **Schedule & Jobs** – Schedule all tasks to automatically post at optimal times and manage the entire bot workflow.
-- 🔹 **Logging & Monitoring** – Logs activities with Winston and Better Stack for reliable monitoring.
-- 🔹 **Persistent Storage** – Stores collected data in PostgreSQL and MongoDB.
-- 🔹 **Optimization & Reliable** – Used Mozilla’s Readability algorithm to extract informative text and added robust error handling.
+- **AI Startup Discovery** – Fetch data from Product Hunt via api to identify emerging startups.
+- **Website Crawling** – Visits startup websites to gather detailed info.
+- **Content Generation** – Automatically writes tweets and blogs about startups via LLM.
+- **Content Posting** – Automatically pots tweets and blogs on X (Twitter), Dev.to via api.
+- **Schedule & Jobs** – Schedule all tasks to automatically post at optimal times and manage the entire bot workflow.
+- **Logging & Monitoring** – Logs activities with Winston and Better Stack for reliable monitoring.
+- **Persistent Storage** – Stores collected data in PostgreSQL and MongoDB.
+- **Optimization & Reliable** – Used Mozilla’s Readability algorithm to extract informative text and added robust error handling.
 
 ## Tech Stack
 - Backend: Node.js, TypeScript
